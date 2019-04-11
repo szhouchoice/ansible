@@ -4,5 +4,4 @@
 - name: Installing node and npm
   yum:
     name: nodejs
-    enablerepo: epel
     state: installed
